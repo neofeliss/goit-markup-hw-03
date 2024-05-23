@@ -12,10 +12,13 @@
 .header {
     background-color:var(--white, #fff);
     flex-shrink:0;
-    
-   
+    padding-top: ;
+    padding-bottom: ;
+ 
 }
-
+.header-container{
+    display: flex;
+}
 .link {
     text-decoration:none;
 }
@@ -27,7 +30,9 @@
 .link:focus {
     color:#404bbf;
 }
-
+.navigation{
+    display: flex;
+}
 .logo {
     color:#4d5ae5;
     text-transform:uppercase;
@@ -36,6 +41,7 @@
     font-size:18px;
     line-height:1.17;
     letter-spacing:0.03em;
+    margin-right:76px; 
 }
 
 .logo:root {
@@ -48,8 +54,19 @@
 
 .list {
     list-style:none;
-}
+    margin-top:0;
+    margin-bottom:0;
+    padding-left:0;
+    display: flex;
+    gap: 40px;
 
+
+}
+ p,h1,h2,h3,h4{
+    margin:0;
+    margin-bottom:0;
+ }
+ 
 .guidance {
     color:#2e2f42;
     font-weight:500;
@@ -57,7 +74,12 @@
     line-height:1.5;
     letter-spacing:0.02em;
 }
-
+.container{
+    width: 1158px; 
+    
+    padding: 0 15px; 
+    margin:0 auto;
+}
 .guidance:hover {
     color: #404bbf;
 }
