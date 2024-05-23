@@ -12,13 +12,10 @@
 .header {
     background-color:var(--white, #fff);
     flex-shrink:0;
-    padding-top: ;
-    padding-bottom: ;
- 
+    padding-top: 0;
+    padding-bottom:0;
 }
-.header-container{
-    display: flex;
-}
+
 .link {
     text-decoration:none;
 }
@@ -32,6 +29,7 @@
 }
 .navigation{
     display: flex;
+    align-items: center;
 }
 .logo {
     color:#4d5ae5;
@@ -41,7 +39,11 @@
     font-size:18px;
     line-height:1.17;
     letter-spacing:0.03em;
-    margin-right:76px; 
+    margin-right:76px;
+     
+}
+.nav-list {
+    display: flex;
 }
 
 .logo:root {
@@ -59,9 +61,13 @@
     padding-left:0;
     display: flex;
     gap: 40px;
-
-
 }
+.ul, ol{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
  p,h1,h2,h3,h4{
     margin:0;
     margin-bottom:0;
@@ -74,11 +80,20 @@
     line-height:1.5;
     letter-spacing:0.02em;
 }
-.container{
+.container {
     width: 1158px; 
-    
     padding: 0 15px; 
     margin:0 auto;
+
+ }
+
+.guidance-link {
+padding: 24px 0;
+display: block;
+}
+.header-container {
+    display: flex;
+    align-items: center;
 }
 .guidance:hover {
     color: #404bbf;
@@ -94,9 +109,14 @@
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
+    
+
    
 }
-
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
 
 .header-address-list-item {
     font-size:16px;
@@ -104,7 +124,9 @@
     letter-spacing:0.02em;
     color:#434455;
 }
-
+.address-list{
+    display: flex;
+}
 .contacts:hover {
     color:#404bbf;
 }
