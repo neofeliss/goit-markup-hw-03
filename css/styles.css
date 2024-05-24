@@ -260,14 +260,13 @@ display: block;
 
 .section-team-text-name {
     color: var(--slate, #434455);
-    font-weight:500;
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    text-align:center;
- 
 }
-
+.employer-card {
+background-color: #fff;
+}
 /* section 4 */
 .section-portfolio{
  padding-top: 120px;
@@ -284,8 +283,6 @@ padding-bottom: 120px;
     text-transform:capitalize;
     
 }
-
-
 
 .section-subtitle-portfolio {
     color:#2e2f42;
