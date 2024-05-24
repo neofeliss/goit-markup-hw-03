@@ -62,6 +62,7 @@
     padding-left:0;
     display: flex;
     gap: 40px;
+    
 }
 .ul, ol{
     list-style: none;
@@ -115,9 +116,11 @@ display: block;
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    
-
-   
+    margin-left: auto;
+}
+.address-container {
+    display: flex;
+    gap: 40px;
 }
 .nav-list{
     display: flex;
@@ -225,11 +228,28 @@ display: block;
     font-style:normal;
     font-weight:400;
     line-height:1.5;
-    letter-spacing:0.02em;
-}
+    letter-spacing:0.02em;}
+
+
 .second-section {
     flex-basis: calc((100% - 3 * 24px) / 1);
 }
+.hidden{
+    position: absolute;
+     width: 1px;
+     height: 1px;
+    margin: -1px;
+     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+     overflow: hidden;
+    }
+    .features-container {
+     display: flex;
+     gap: 24px;
+        }
 
 /* section 3 */
 
@@ -248,6 +268,9 @@ display: block;
     margin-bottom: 72px;
     
 }
+.section-color {
+    background-color: #f4f4fd;
+}
 .team-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
@@ -260,15 +283,20 @@ display: block;
 .section-team-item-name {
     background-color:#FFFFFF;
 }
-
+.team-position {
+    text-align: center;
+}
 .section-team-subtitle-name {
     color:#2e2f42;
     font-weight:500;
     font-size:20px;
     line-height:1.2;
     letter-spacing:0.02em;
-    text-align:center;
+    margin-bottom: 8px;
   
+}
+.subtitle-list {
+    list-style-type: none;
 }
 
 .section-team-text-name {
@@ -315,8 +343,20 @@ padding-bottom: 120px;
 
    
 }
-
-
+.section-item-portfolio {
+    flex-basis: calc(1128px / 6);
+}
+.app-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+    .portfolio-container {
+     display: flex;
+     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 /*main portfolio*/
 
 
@@ -409,7 +449,11 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+ .app-container {
+     padding: 32px 16px;
+     border: 1px solid #e7e9fc;
+     border-top: none;
+ }
 .project-text:root {
     color: #2e2f42;
 }
@@ -458,4 +502,7 @@ padding-bottom: 120px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.footer-container {
+    padding: 100px 0;
 }
