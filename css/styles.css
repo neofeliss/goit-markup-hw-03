@@ -297,7 +297,9 @@ font-style:normal;
 .subtitle-list {
     list-style-type: none;
 }
-
+.team-container{
+    padding: 32px 0;
+}
 .section-team-text-name {
     color: var(--slate, #434455);
     font-size:16px;
