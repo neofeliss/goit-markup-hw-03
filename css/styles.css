@@ -194,34 +194,32 @@ max-width: 496px;
  margin: 0px auto;
 margin-bottom: 48px;
 }
+.main-titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
 .main-button {
 font-weight: 500;
-font-size: 16px;
-line-height: 24px;
- line-height: 1.5;
- letter-spacing: 0.04em;
- color: #fff;
- background-color: #4d5ae5;
-border-radius: 4px;
- cursor: pointer;
- padding: 16px 32px;
- border: none;
- display: block;
- margin: 0 auto;
-     min-width: 169px;
-     min-width: 169px;
-    height: 56px;
-    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
     border-radius: 4px;
-    margin: 0 auto;
-     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
- min-width: 169px;
-    height: 56px;
+    cursor: pointer;
+    padding: 16px 32px;
     border: none;
-    border-radius: 4px;
+    display: block;
     margin: 0 auto;
-     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    min-width: 169px;
 }
 
 .main-button:hover,.main-button:focus {
@@ -368,9 +366,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.main-portfolio-text{
 
-}
 /*footer*/
 
 .footer-dark-bg {
@@ -437,4 +433,11 @@ font-weight: 400;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
+.main-subtitles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
