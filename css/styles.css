@@ -430,11 +430,4 @@ section {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.main-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
