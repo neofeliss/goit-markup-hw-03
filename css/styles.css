@@ -185,16 +185,16 @@ display: block;
 }
 
 .main-text {
- font-weight: 700;
- font-size: 56px;
- line-height: 60px;
- line-height: 1.07;
-letter-spacing: 0.02em;
- color: #fff;
-max-width: 496px;
- margin: 0px auto;
-margin-bottom: 48px;
-text-align: center;
+font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    max-width: 496px;
+    margin: 0px auto;
+    margin-bottom: 48px;
 }
 .main-titles {
     font-weight: 700;
