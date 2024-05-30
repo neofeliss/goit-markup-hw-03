@@ -293,13 +293,13 @@ section {
     margin-bottom: 8px;
 }
 .section-team-subtitle-name{
- 
+font-weight:normal;
  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
  margin-bottom: 8px;
- text-align: left;
+ text-align: center;
     }
     
 
