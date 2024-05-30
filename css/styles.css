@@ -69,8 +69,7 @@ img {
         color: #4d5ae5;
         margin-right: 76px;
         padding-top: 24px;
-        padding-bottom: 24px;
-        display: block;
+       
 }
 
 .logo:root {
@@ -265,10 +264,7 @@ font-weight: 500;
 }
 
 
-.main-team-image {
-    margin: 0 auto;
-    margin-bottom: 32px;
-}
+
 section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -297,11 +293,18 @@ section {
     margin-bottom: 8px;
 }
 .section-team-subtitle-name{
-   margin-bottom: 8px;
-    text-align: center;
+ 
+ font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+ margin-bottom: 8px;
+ text-align: left;
     }
+    
+
     .section-team-text-name{
-        margin-bottom: 32px;
+      
             text-align: center;
         }
     
@@ -390,8 +393,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: inline-block;
-}
+    display: inline-block;}
 
 .logo-studio {
     color: #f4f4fd;
@@ -419,7 +421,7 @@ font-weight: 400;
 }
 
 .main-portfolio-item {
-    border: 1px solid #e7e9fc;
+   
     background-color: #ffffff;
     width: 360px;
 }
