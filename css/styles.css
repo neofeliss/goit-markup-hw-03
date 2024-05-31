@@ -184,16 +184,15 @@ display: block;
 }
 
 .main-text {
-font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #fff;
-    text-align: center;
-    max-width: 496px;
-    margin: 0px auto;
-    margin-bottom: 48px;
+font-weight: 700;  
+font-size: 56px;  
+line-height: 1.07;  
+letter-spacing: 0.02em;
+color: #fff;   
+margin-bottom: 48px;
+max-width: 496px;
+ margin-left: auto;
+ margin-right: auto;
 }
 .main-titles {
     font-weight: 700;
