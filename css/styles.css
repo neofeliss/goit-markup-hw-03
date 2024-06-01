@@ -58,7 +58,7 @@ img {
     color: #404bbf;
 }
 
-.logo-web{
+.logo-web-header{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -68,7 +68,7 @@ img {
         text-transform: uppercase;
         color: #4d5ae5;
         margin-right: 76px;
-        padding-top: 24px;
+       
        
 }
 
@@ -382,7 +382,12 @@ font-weight: 500;
     
 }
 
-.logo-web {
+.logo-studio {
+    color: #f4f4fd;
+}
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -392,15 +397,9 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: inline-block;}
+    display: inline-block;
+}
 
-.logo-studio {
-    color: #f4f4fd;
-}
-.footer-logo {
-display: inline-block;
-margin-bottom: 16px;
-}
 .footer-dark-bg-text {
 font-weight: 400;
     font-size: 16px;
